@@ -1,29 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Grid Layout Example</title>
-  <link rel="stylesheet" href="css/css/gird1.css">
-</head>
-<body>
-  <div class="grid-container">
-    <div class="grid-item">1</div>
-    <div class="grid-item">2</div>
-    <div class="grid-item">3</div>
-    <div class="grid-item">4</div>
-    <div class="grid-item">5</div>
-    <div class="grid-item">6</div>
-  </div>
-</body>
-</html>
-<div class="topnav">
-<a href="#">Link</a>
-<a href="#">Link</a>
-<a href="#">Link</a>
-</div>
-<div class="content">
-<h2>3 - CSS Template Topnav</h2>
-</div>
-<div class="footer">
-<p>Footer</p>
-</div>
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+    overflow: hidden; background-color: blue;
+}
+.topnav a {
+    float: left; display: block; color: white; text-align: center; padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: yellow;
+    color: black;
+}
+.content {
+    background-color: lightblue; padding: 10px;
+    height: 200px;
+}
+.footer {
+    background-color: orange; padding: 10px;
+}
